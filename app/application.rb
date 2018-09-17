@@ -4,6 +4,8 @@ class Application
     resp = Rack::Response.new
     time = Time.new 
     time.split(" ")
+    new_time = time[1]
+    new_time.split(":")
     if num_1==num_2 && num_2==num_3
       resp.write "Good Morning!"
     else
