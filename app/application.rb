@@ -6,7 +6,7 @@ class Application
     time.split(" ")
     new_time = time[1]
     new_time.split(":")
-    if num_1==num_2 && num_2==num_3
+    if new_time[0] < 12
       resp.write "Good Morning!"
     else
       resp.write "You Lose"
