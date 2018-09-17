@@ -2,7 +2,7 @@ class Application
  
   def call(env)
     resp = Rack::Response.new
-    time = Time.new 
+    time = Time.now 
     time.split(" ")
     new_time = time[1]
     new_time.split(":")
