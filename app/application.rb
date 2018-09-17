@@ -8,12 +8,13 @@ class Application
     
     if time[0].to_i < 12
       resp.write "Good Morning!"
-      binding.pry
+      
     else
       resp.write "Good Afternoon!"
     end
  
     resp.finish
+    binding.pry
   end
  
 end
