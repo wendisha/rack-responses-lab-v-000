@@ -6,7 +6,7 @@ class Application
     time = Time.now.strftime("%I:%M:%S %Z %z") 
     new_time = time.split(":")
     
-    if time[0].to_i < 12
+    if new_time[0].to_i < 12
       resp.write "Good Morning!"
       
     else
